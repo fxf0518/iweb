@@ -19,3 +19,16 @@ a{
 a:hover{
 	color: #f60;
 }
+ol,
+ul{
+	margin: 0;/*清楚浏览器为列表自动添加的样式*//*清楚浏览器为ul自动添加的样式*/
+	padding: 0;/*清楚浏览器为列表自动添加的样式*/
+}
+li{
+	list-style: none;/*清除列表项前的提示符号*/
+	/*修改列表项前的提示符合*/
+	/*list-style: disc; 圆饼*/
+	/*list-style: decimal; 数字*/
+	/*list-style: circle;圆圈*/
+	/*list-style: none;取消提示符*/
+}
